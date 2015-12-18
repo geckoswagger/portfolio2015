@@ -4,6 +4,7 @@
 	height: 630px;
 	margin-bottom: 0px;
 	margin-top: 0px;
+
 	
 }
 
@@ -13,12 +14,11 @@
 
 }
 
-.kblogo .parent{
-	
-	display: flex;
-	justify-content:center;
-	align-items:center;
-	max-height: 300px;
+.kblogo>img{
+	max-height: 400px;
+	min-height: 100px;
+	margin: 0 auto;
+	vertical-align: middle;
 }
 
 
@@ -35,6 +35,27 @@
     max-height: 56px !important;
 }
 
+.navbar-nav>a:hover{
+	background-color: #000000;
+	color: #ffffff;
+}
+
+.container2 {
+	width: 100%
+}
+
+.left{
+	width: 50%;
+	height: 200px;
+}
+
+.right{
+	width: 50%;
+	height: 200px;
+	border-left: 1px solid;
+	border-color: #000;
+}
+
 .row.no-gutters {
   margin-right: 0;
   margin-left: 0;
@@ -47,16 +68,19 @@
 #photography .container-fluid {
     padding-left: 0;
     padding-right: 0;
+    
 }
 
 #graphic-design .container-fluid {
     padding-left: 0;
     padding-right: 0;
+    
 }
 
 #illustration .container-fluid {
     padding-left: 0;
     padding-right: 0;
+   	
 }
 .navbar {
     position: relative;
